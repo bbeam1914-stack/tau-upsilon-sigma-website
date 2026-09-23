@@ -92,3 +92,6 @@
  .mlk-grid img:nth-child(5){grid-column:1 / span 5!important;grid-row:3!important}
  .mlk-grid img:nth-child(6){grid-column:7 / span 5!important;grid-row:3!important}
 }
+
+/* Gallery collage images */
+.gallery-collage{max-width:1120px;margin:28px auto 0;padding:0 45px}.gallery-collage img{display:block;width:100%;height:auto}@media(max-width:1000px){.gallery-collage{padding:0 22px;margin-top:22px}}
