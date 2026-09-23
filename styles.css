@@ -28,7 +28,7 @@
 
 
 /* Scholarship */
-.scholarship-hero{height:600px;position:relative;background:url("scholarship.jpg") center 45%/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+.scholarship-hero{height:600px;position:relative;background:url("Education.jpg") center 45%/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
 .scholarship-overlay{position:absolute;inset:0;background:rgba(10,25,45,.58)}
 .scholarship-title{position:relative;z-index:2;text-shadow:0 2px 6px rgba(0,0,0,.5);padding:70px 25px 20px}.scholarship-title h1{font-size:clamp(38px,3.4vw,58px);margin:0 0 25px}.scholarship-title p{font-size:25px;margin:0 0 26px}.scholarship-title em{font-size:18px;line-height:1.45}
 .scholarship-intro{max-width:1040px;margin:auto;padding:32px 45px 38px;font-size:20px;line-height:1.4}.scholarship-intro h2,.scholarship-apps h2,.scholarship-action h2,.scholarship-action h3{color:#15579a;text-align:center}.scholarship-intro h2{font-size:31px;margin:0 0 25px}.scholarship-intro p{margin:0 0 16px}
