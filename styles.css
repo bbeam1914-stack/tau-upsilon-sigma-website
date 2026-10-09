@@ -179,3 +179,13 @@
 .soulfood-collage .sf-group-brothers>.sf-photo,
 .soulfood-collage .sf-booth>.sf-photo,
 .soulfood-collage .sf-wide-tents>.sf-photo{object-fit:contain;object-position:center center;transform:none;background:#fff}
+
+/* Collage refinement: equal-height rows with no letterboxing; preserve full canopy lettering. */
+.soulfood-collage-top{align-items:stretch}
+.soulfood-collage-top .sf-frame{height:270px}
+.soulfood-collage .sf-group-zeta>.sf-photo,
+.soulfood-collage .sf-group-brothers>.sf-photo{object-fit:cover;object-position:center 35%;transform:none}
+.soulfood-collage .sf-booth>.sf-photo{object-fit:cover;object-position:center 34%;transform:none}
+.soulfood-collage>.sf-wide-tents{height:275px}
+.soulfood-collage .sf-wide-tents>.sf-photo{object-fit:cover;object-position:center 39%;transform:none}
+@media(max-width:700px){.soulfood-collage-top .sf-frame{height:230px}.soulfood-collage>.sf-wide-tents{height:210px}}
