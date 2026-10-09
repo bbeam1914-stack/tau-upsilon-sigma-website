@@ -154,3 +154,18 @@
 .soulfood-collage-details .sf-table-crop{height:191px;overflow:hidden;min-width:0}
 .soulfood-collage-details .sf-table-crop .sf-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center 82%;transform:scale(1.55);transform-origin:center 85%}
 @media(max-width:700px){.soulfood-collage-details .sf-table-crop{height:190px}}
+
+/* Festival collage image framing, guided by approved crop reference. */
+.soulfood-collage .sf-frame{position:relative;overflow:hidden;min-width:0;min-height:0}
+.soulfood-collage-top .sf-frame{height:320px}
+.soulfood-collage-middle>.sf-frame{height:400px}
+.soulfood-collage-details .sf-frame{height:191px}
+.soulfood-collage>.sf-frame{height:340px}
+.soulfood-collage .sf-frame>.sf-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center center;max-height:none;clip-path:none;border-radius:0;transform:none}
+.soulfood-collage .sf-group-zeta>.sf-photo{object-position:center 19%;transform:scale(1.25);transform-origin:center 28%}
+.soulfood-collage .sf-group-brothers>.sf-photo{object-position:center 47%;transform:scale(1.08)}
+.soulfood-collage .sf-booth>.sf-photo{object-position:center 46%;transform:scale(1.06)}
+.soulfood-collage .sf-resources-close>.sf-photo{object-position:center 82%;transform:scale(1.75);transform-origin:center 90%}
+.soulfood-collage .sf-resources-table>.sf-photo{object-position:center 70%;transform:scale(1.12)}
+.soulfood-collage .sf-wide-tents>.sf-photo{object-position:center 57%;transform:scale(1.04)}
+@media(max-width:700px){.soulfood-collage-top .sf-frame{height:260px}.soulfood-collage-middle>.sf-frame{height:320px}.soulfood-collage-details .sf-frame{height:190px}.soulfood-collage>.sf-frame{height:230px}}
