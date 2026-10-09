@@ -109,3 +109,13 @@
 .approved-hero{background-image:url("assets/home/hero.jpg");background-position:center center;min-height:560px;height:100svh}
 @media(max-width:700px){.approved-hero{height:78svh;min-height:480px;background-position:50% 35%}.approved-title{padding:0 18px}.approved-title h1{font-size:clamp(28px,7vw,40px)}}
 @media(min-width:701px) and (max-width:1100px){.approved-hero{background-position:50% 42%}}
+
+/* Soul Food Festival: consistent photo tiles, centered crops, and tighter storytelling. */
+.soulfood-gallery img{width:100%;height:clamp(210px,27vw,350px);object-fit:cover;object-position:center center}
+.soulfood-gallery img:nth-child(1){object-position:center 42%}
+.soulfood-gallery img:nth-child(2){object-position:center 22%}
+.soulfood-gallery img:nth-child(3){object-position:center 65%}
+.soulfood-gallery img:nth-child(4){object-position:center 55%}
+.soulfood-gallery img:nth-child(5){object-position:center 44%}
+.soulfood-gallery img:nth-child(6){object-position:center 50%}
+@media(max-width:700px){.soulfood-gallery img{height:64vw;max-height:360px}}
