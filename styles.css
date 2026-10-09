@@ -173,3 +173,9 @@
 /* Soul Food collage: protect group edges and canopy lettering */
 .soulfood-collage .sf-group-zeta>.sf-photo{object-fit:contain;object-position:center center;transform:none;background:#fff}
 .soulfood-collage .sf-booth>.sf-photo{object-position:center 22%;transform:none}
+
+/* Preserve complete canopy peaks, organization names, and people in festival collage. */
+.soulfood-collage .sf-group-zeta>.sf-photo,
+.soulfood-collage .sf-group-brothers>.sf-photo,
+.soulfood-collage .sf-booth>.sf-photo,
+.soulfood-collage .sf-wide-tents>.sf-photo{object-fit:contain;object-position:center center;transform:none;background:#fff}
