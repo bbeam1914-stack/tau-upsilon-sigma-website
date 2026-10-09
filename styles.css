@@ -169,3 +169,7 @@
 .soulfood-collage .sf-resources-table>.sf-photo{object-position:center 70%;transform:scale(1.12)}
 .soulfood-collage .sf-wide-tents>.sf-photo{object-position:center 57%;transform:scale(1.04)}
 @media(max-width:700px){.soulfood-collage-top .sf-frame{height:260px}.soulfood-collage-middle>.sf-frame{height:320px}.soulfood-collage-details .sf-frame{height:190px}.soulfood-collage>.sf-frame{height:230px}}
+
+/* Soul Food collage: protect group edges and canopy lettering */
+.soulfood-collage .sf-group-zeta>.sf-photo{object-fit:contain;object-position:center center;transform:none;background:#fff}
+.soulfood-collage .sf-booth>.sf-photo{object-position:center 22%;transform:none}
