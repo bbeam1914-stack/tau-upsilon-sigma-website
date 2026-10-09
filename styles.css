@@ -189,3 +189,13 @@
 .soulfood-collage>.sf-wide-tents{height:275px}
 .soulfood-collage .sf-wide-tents>.sf-photo{object-fit:cover;object-position:center 39%;transform:none}
 @media(max-width:700px){.soulfood-collage-top .sf-frame{height:230px}.soulfood-collage>.sf-wide-tents{height:210px}}
+
+/* Final collage framing: allocate enough vertical space for canopy peaks AND displays. */
+.soulfood-collage-top .sf-frame{height:290px}
+.soulfood-collage .sf-group-zeta>.sf-photo,.soulfood-collage .sf-group-brothers>.sf-photo{object-fit:contain;object-position:center;background:#fff}
+.soulfood-collage-middle{min-height:365px}
+.soulfood-collage-middle>.sf-frame{height:365px}
+.soulfood-collage .sf-booth>.sf-photo{object-fit:contain;object-position:center;background:#fff}
+.soulfood-collage>.sf-wide-tents{height:490px}
+.soulfood-collage .sf-wide-tents>.sf-photo{object-fit:cover;object-position:center 52%;transform:none}
+@media(max-width:700px){.soulfood-collage-top .sf-frame{height:auto;aspect-ratio:4/3}.soulfood-collage-middle>.sf-frame{height:auto;aspect-ratio:4/3}.soulfood-collage>.sf-wide-tents{height:auto;aspect-ratio:4/3}}
