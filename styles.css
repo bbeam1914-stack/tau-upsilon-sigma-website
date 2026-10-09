@@ -144,3 +144,8 @@
 .soulfood-collage-top .sf-photo:last-child{object-position:center 45%}
 .soulfood-collage>.sf-panorama{height:340px;object-position:center 56%}
 @media(max-width:700px){.soulfood-collage{padding:0 22px;gap:12px}.soulfood-collage-top,.soulfood-collage-middle{grid-template-columns:1fr;gap:12px;min-height:0}.soulfood-collage-top .sf-photo{height:260px}.soulfood-collage-middle>.sf-anchor{height:320px}.soulfood-collage-details{grid-template-columns:1fr 1fr;grid-template-rows:none;gap:12px}.soulfood-collage-details .sf-photo{height:190px}.soulfood-collage>.sf-panorama{height:230px}}
+
+/* Zoom photo 2 to emphasize the brothers and Zeta sisters, without changing its tile dimensions. */
+.soulfood-collage-top .sf-fellowship-crop{height:320px;overflow:hidden;min-width:0}
+.soulfood-collage-top .sf-fellowship-crop .sf-photo{height:100%;width:100%;object-fit:cover;object-position:center 24%;transform:scale(1.28);transform-origin:center 32%}
+@media(max-width:700px){.soulfood-collage-top .sf-fellowship-crop{height:260px}}
