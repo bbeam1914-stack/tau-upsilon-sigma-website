@@ -199,3 +199,6 @@
 .soulfood-collage>.sf-wide-tents{height:490px}
 .soulfood-collage .sf-wide-tents>.sf-photo{object-fit:cover;object-position:center 52%;transform:none}
 @media(max-width:700px){.soulfood-collage-top .sf-frame{height:auto;aspect-ratio:4/3}.soulfood-collage-middle>.sf-frame{height:auto;aspect-ratio:4/3}.soulfood-collage>.sf-wide-tents{height:auto;aspect-ratio:4/3}}
+
+/* Give the portrait Senate forum flyer more presence without stretching it. */
+@media (min-width: 701px){.event-row:has(> img[src$="senate.webp"]) > img{height:305px}}
