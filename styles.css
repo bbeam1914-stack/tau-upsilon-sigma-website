@@ -211,3 +211,14 @@
 /* Give the national Conclave flyer more prominence while preserving its full artwork. */
 @media (min-width: 1001px){.event-row:has(> img[src*="/conclave/flyer.png"]) > img{height:390px;object-fit:contain;object-position:top center}}
 @media (max-width: 1000px){.event-row:has(> img[src*="/conclave/flyer.png"]) > img{max-width:520px;width:100%;height:auto}}
+
+/* Events: let every flyer fill the height of its accompanying details, from
+   the blue heading down to the action link, without distorting artwork. */
+@media (min-width:1001px){
+  .events-main .event-row{grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:42px;align-items:stretch}
+  .events-main .event-row>img{display:block;width:100%;height:100%;min-height:0;max-height:none;object-fit:contain;object-position:center top;align-self:stretch}
+  .events-main .event-row>div{min-width:0}
+  .events-main .event-row h3{margin-top:0}
+  .events-main .event-row:has(> img[src*="/conclave/flyer.png"])>img,
+  .events-main .event-row:has(> img[src$="senate.webp"])>img{height:100%;max-height:none}
+}
