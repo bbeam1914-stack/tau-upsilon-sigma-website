@@ -207,3 +207,7 @@
 .events .events-intro{color:#fff;opacity:1}
 .events .event-grid a:link,.events .event-grid a:visited{color:#fff;text-decoration:underline;text-underline-offset:3px}
 .events .event-grid a:hover,.events .event-grid a:focus-visible{color:#fff;text-decoration-thickness:2px}
+
+/* Give the national Conclave flyer more prominence while preserving its full artwork. */
+@media (min-width: 1001px){.event-row:has(> img[src*="/conclave/flyer.png"]) > img{height:390px;object-fit:contain;object-position:top center}}
+@media (max-width: 1000px){.event-row:has(> img[src*="/conclave/flyer.png"]) > img{max-width:520px;width:100%;height:auto}}
