@@ -202,3 +202,8 @@
 
 /* Give the portrait Senate forum flyer more presence without stretching it. */
 @media (min-width: 701px){.event-row:has(> img[src$="senate.webp"]) > img{height:305px}}
+
+/* Homepage upcoming events: consistent accessible contrast for text and links. */
+.events .events-intro{color:#fff;opacity:1}
+.events .event-grid a:link,.events .event-grid a:visited{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.events .event-grid a:hover,.events .event-grid a:focus-visible{color:#fff;text-decoration-thickness:2px}
